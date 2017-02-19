@@ -1,3 +1,34 @@
+#publicTop{
+    height: 31px;
+    background: #EFEFEF url("../images/top.png");
+}
 #shortCut{
-    height:;
+    height:30px;
+    width:1210px;
+   margin: 0px auto;
+}
+#shortCut li{
+    float:left;
+    position: relative;
+    margin-left: -1px;
+    z-index: 9999;
+
+}
+.icon-fav{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/top.png) no-repeat;
+    position: absolute;
+    background-position: -57px -289px;
+    left: 4px;
+    top: 10px;
+}
+#shortCut .icon-li a {
+    padding-left: 18px;
+
+}
+.icon-li{
+    left: 4px;
+    top: 10px;
 }
