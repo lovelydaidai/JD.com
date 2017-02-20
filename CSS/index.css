@@ -1,34 +1,58 @@
-#publicTop{
+#public_top{
+
     height: 31px;
-    background: #EFEFEF url("../images/top.png");
-}
-#shortCut{
-    height:30px;
-    width:1210px;
-   margin: 0px auto;
-}
-#shortCut li{
-    float:left;
-    position: relative;
-    margin-left: -1px;
-    z-index: 9999;
+    background: #EFEFEF url("../images/top.png" ) repeat-x;
 
 }
-.icon-fav{
-    display: block;
-    width: 10px;
-    height: 10px;
-    background: url(../images/top.png) no-repeat;
-    position: absolute;
-    background-position: -57px -289px;
-    left: 4px;
-    top: 10px;
-}
-#shortCut .icon-li a {
-    padding-left: 18px;
+#shrot_cut{
+    height: 30px;
+    width: 1210px;
+    line-height: 30px;
+    margin: 0px auto;
 
 }
-.icon-li{
-    left: 4px;
-    top: 10px;
+a{
+    color: #333;
+}#shrot_cut_l li{
+     float: left;
+    
+ }
+ #shrot_cut_l a{
+     padding:0px 8px;
+     border-right: 1px solid #e0e0e0;
+ }
+#nav_star{
+     height: 10px;
+     width: 10px;
+     background: url("../images/top.png") -57px -289px;
+     position: relative;
+     left: 4px;
+     top: 10px;
+     display: block;
+     float: left;
 }
+#shrot_cut_r li{
+    float: left;
+}
+#shrot_cut_r a{
+    padding:0px 8px;
+    border-right: 1px solid #e0e0e0;
+}
+#nav_tri{
+    background: url("../images/top.png" ) -35px -281px;
+    /*position: relative;*/
+    /*float: left;*/
+    /*display: block;*/
+
+    /*height:4px;*/
+    /*widows:7px;*/
+    height: 4px;
+    width: 7px;
+    /*background: url("../images/top.png") -57px -289px;*/
+    /*left: 4px;*/
+    /*top: 10px;*/
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
