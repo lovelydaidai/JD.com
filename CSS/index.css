@@ -55,4 +55,127 @@ a{
     vertical-align: middle;
     margin-left: 7px;
 }
+#shrot_cut_activate dd{
+    display: block;
+    
+}
+#shrot_cut_activate a{
+    border:none;
+}
+#shrot_cut_activate span{
+    background: url("../images/top.png") -35px -275px;
+}
+#shrot_cut_activate{
+    border:1px #ccc solid;
+    position: relative;
+    top: 3px;
+    right: 1px;
+    background-color: #fff;
+}
+#shrot_cut_activate dt a{
+    padding:0px 6px 3px 6px;
+    border-bottom:1px#F3F3F3 solid;
+    margin:0px 2px;
+}
+
+/*导航栏结束*/
+.penglei{
+    width: 1210px;
+    height: 30000px;;
+    /*background: #CCCCCC;*/
+    margin:0px auto;
+}
+#head{
+    width: 1210px;
+    height: 91px;
+
+}
+#logo{
+    width: 324px;
+    height: 68px;
+    position: relative;
+    margin-top: 23px;
+    float: left;
+
+
+}
+
+#logo_ads {
+    width: 115px;
+    height: 51px;
+    position: absolute;
+    left: 187px;
+    top: 0px;
+}
+/*名字里不要是ad不然会被自己浏览器的插件屏蔽*/
+#search{
+    width: 500px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+#search_form_left{
+    background: url("../images/top.png" ) -81px -470px;
+    height: 36px;
+    width: 3px;
+    float: left;
+}
+#search_form_center{
+    background: url("../images/top.png" ) 0px -357px;
+    width: 493px;
+    height: 36px;
+    float: left;
+
+
+}
+#search_form_right{
+    background: url("../images/top.png" ) 0px -470px;
+    width: 3px;
+    height:36px;
+    float: left;
+}
+#keyword{
+    width: 413px;
+    height: 30px;
+    position: relative;
+    top: 3px;
+    border:0px;
+    margin: 0px ;
+    padding: 0px;
+
+}
+#search_button{
+    width: 78px;
+    height: 30px;
+    line-height: 30px;
+    clear: both;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+    background: url("../images/top.png" ) 0px -395px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#hot_keyword li {
+    display: inline;
+
+}
+#hot_keyword a{
+    color: #999999;
+    padding-right: 5px;
+}
+#hot_keyword .hot_shit{
+    color: #c00 ;
+}
+
+
+
+
 
