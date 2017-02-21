@@ -175,6 +175,39 @@ a{
     color: #c00 ;
 }
 
+#head_card{
+    width: 260px;
+    height: 45px;
+    float: right;
+    margin-top: 20px;
+    background-color: #A62020;
+}
+#head_card_person{
+    height:29px;
+    width:110px;
+    background: url(../images/buy.png) no-repeat -65px -320px;
+    float: left;
+    text-align: center;
+    line-height:29px;
+}
+#head_card_car{
+    background:url(../images/buy.png) no-repeat 0px -252px;
+    height:29px;
+    width:131px;
+    float: right;
+}
+#head_card_car{
+    text-align: center;
+    line-height:29px;
+}
+.icon_account{
+    width: 24px;
+    height: 24px;
+    background:url(../images/buy.png) no-repeat -202px -176px;
+    left: 2px;
+    top: 2px;
+}
+
 
 
 
