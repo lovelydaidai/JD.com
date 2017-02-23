@@ -15,7 +15,7 @@ a{
     color: #333;
 }#shrot_cut_l li{
      float: left;
-    
+
  }
  #shrot_cut_l a{
      padding:0px 8px;
@@ -57,7 +57,7 @@ a{
 }
 #shrot_cut_activate dd{
     display: block;
-    
+
 }
 #shrot_cut_activate a{
     border:none;
@@ -96,8 +96,6 @@ a{
     position: relative;
     margin-top: 23px;
     float: left;
-
-
 }
 
 #logo_ads {
@@ -180,33 +178,148 @@ a{
     height: 45px;
     float: right;
     margin-top: 20px;
-    background-color: #A62020;
+    /*background-color: #A62020;*/
 }
 #head_card_person{
     height:29px;
     width:110px;
     background: url(../images/buy.png) no-repeat -65px -320px;
     float: left;
-    text-align: center;
     line-height:29px;
+    position: relative;
+}
+.icon_dropdown_big{
+    background: url(../images/top.png) no-repeat -16px -283px;
+    position: absolute;
+    top:11px;
+    height: 7px;
+    width: 12px;
+    left: 90px;
 }
 #head_card_car{
     background:url(../images/buy.png) no-repeat 0px -252px;
     height:29px;
     width:131px;
     float: right;
+    position: relative;
 }
-#head_card_car{
-    text-align: center;
+#head_card_person a{
+    left: 36px;
+    position: absolute;
+}
+
+#head_card_car a{
     line-height:29px;
+    left: 40px;
+    position: absolute;
+}
+.icon_avatar{
+    width:24px;
+    height:24px;
+    background:  url("../images/buy.png") -202px -176px;
+    float: left;
+    position: relative;
+    top: 1.5px;
+    
 }
 .icon_account{
+    background: url(../images/top.png) no-repeat 0px -231px;
+    top: -13px;
+    left: 30px;
     width: 24px;
     height: 24px;
-    background:url(../images/buy.png) no-repeat -202px -176px;
-    left: 2px;
-    top: 2px;
+    display: block;
+    position: absolute;
+
 }
+.icon_account span{
+
+    background-color: #c00;
+    height: 20px;
+    line-height: 16px;
+    color: #FFF;
+    text-indent: 0px;
+    margin-left: 8px;
+    background: url(../images/top.png) no-repeat 100% -595px;
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    font-style: normal;
+    padding-right: 5px;
+}
+
+.icon_dropdown{
+    background: url(../images/top.png) no-repeat -53px -275px;
+    position: absolute;
+    top:9px;
+    height: 11px;
+    width: 6px;
+    left: 115px;
+}
+#head_card_person dd{
+    width:290px;
+    padding: 8px;
+    border:1px #ccc solid;
+    position: absolute;
+    top: 29px;
+    /*right: -112px;*/
+    right: -2px;
+    background: #fff;
+}
+a#load{
+    left:230px;
+    width: 73px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: url(../images/buy.png) no-repeat -124px -220px;
+    border: none;
+
+}
+ #cart_info a{
+    position:static;
+     text-align: right;
+
+ }
+ #cart_info  li{
+     border-bottom: 1px #ccc dotted;
+     line-height: 30px;
+     width: 123px;
+     padding:0px 10px;
+ }
+#cart_order  li{
+    border-bottom: 1px #ccc dotted;
+    line-height: 30px;
+    width: 123px;
+    padding:0px 10px;
+
+}
+#cart_order a{
+    position:static;
+}
+#cart_order{
+    border-left:1px #ccc dotted;
+}
+#person_hover{
+
+    right: 112px;
+    display: none;
+    /*background-color: #000;*/
+    /*z-index:100;*/
+}
+
+#car_hover {
+    display: none;
+    width: 290px;
+    padding: 8px;
+    border: 1px #ccc solid;
+    position: absolute;
+    top: 29px;
+    right: -2px;
+    background: #fff;
+
+}
+/*head 部分完成*/
 
 
 
