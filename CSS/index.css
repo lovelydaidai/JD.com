@@ -248,7 +248,7 @@ a{
     padding-right: 5px;
 }
 
-.icon_dropdown{
+#icon_dropdown{
     background: url(../images/top.png) no-repeat -53px -275px;
     position: absolute;
     top:9px;
@@ -320,6 +320,98 @@ a#load{
 
 }
 /*head 部分完成*/
+#nav{
+    height:40px;
+    width:1210px;
+    position: relative;
+    background: #ccc;
+}
+#nav_bg_left{
+    background:url(../images/top.png) -75px -273px;
+    height: 40px;
+    width:10px;
+    float: left;
+}
+#nav_cate{
+    width: 200px;
+    height: 40px;
+    float: left;
+    background: url(../images/top.png) repeat-x -0px -427px;
+}
+#nav_cate a{
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+#nav_list{
+    float: left;
+    width: 990px;
+    height:40px;
+    background: url(../images/top.png) repeat-x -0px -315px;
+}
+#nav_list li{
+    float: left;
+    width:84px;
+}
+#nav_list a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 84px;
+    display: inline-block;
+    line-height:40px;
+    background:url(../images/top.png) no-repeat -83px -509px;
+}
+#nav_list a:hover{
+    background: url(../images/top.png) repeat-x -0px -162px;
+}
+
+
+#nav_bg_right{
+    background:url(../images/top.png) 0px -273px;
+    height: 40px;
+    width:10px;
+    float: right;
+}
+#nav_ads{
+    width:141px;
+    height:40px;
+    background: url(../images/nav-ads.gif);
+    position: absolute;
+    left:1069px;
+}
+#nav_cate_list{
+    width: 206px;
+    height: 423px;
+    padding-top: 5px;
+    border: #c00 solid;
+    border-width: 0px 2px 2px;
+    background-color: #fcf4ea;
+
+}
+.item_nav{
+    height:30px;
+    width:180px;
+    background-color: #fcf4ea;
+    border-bottom:#fff solid 2px;
+    padding-left: 26px;
+    display: block;
+    background: url(../images/top.png) no-repeat -75px -561px;
+    
+}
+.item_nav a{
+    text-align: center;
+    line-height:30px;
+}
+.item_nav i{
+    background: #000000 url(../images/top.png) -65px -274px;
+    width:5px;
+    height:11px;
+    display: block;
+    position: absolute;
+    right:0px;
+ }
 
 
 
