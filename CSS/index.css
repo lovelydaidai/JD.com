@@ -159,6 +159,7 @@ a{
     background: url("../images/top.png" ) 0px -395px;
     text-align: center;
     cursor: pointer;
+    border:none;
 }
 
 #hot_keyword li {
@@ -534,17 +535,260 @@ a#load{
     float: right;
     height: 437.6px;
     width:309px;
-    background:#ccc;
+}
+
+#new_top_pic{
+    width:309px;
+    height:80px;
+    margin:10px 0px 10px 0px;
+    background: #000 url(../images/new-pic.jpg);
+}
+#new_middle{
+    width:309px;
+    height:150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border:1px solid #DDDDDD;
+    background-color: #f3f3f3;
+}
+#new_middle_title{
+    height:29px;
+    margin:0px 8px;
+}
+#new_middle_title span{
+    line-height:29px;
+    font-weight:bold;
+}
+#new_middle_title a{
+    line-height:29px;
+    font-weight:bold;
+    color: #005ea7;
+    float: right;
+}
+.new_bottom_tabs{
+    overflow: hidden;
+}
+#new_bottom .new_bottom_tabs_hover{
+    background: #fff;
+    border-bottom:none;
+}
+#new_middle_content{
+    width:309px;
+    height:120px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#new_middle_content ul{
+    margin:auto 0px;
+
+}
+#new_middle_content li{
+    display: block;
+    padding:8px 9px;
+    width:136px;
+    height:13px;
+    float: left;
+    border-left:1px solid #eeeeee;
+    margin-left: -1px;
+}
+#new_bottom{
+    width:309px;
+    height:176px;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border:1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+#new_bottom li{
+    display: block;
+    float: left;
+    text-align: center;
+    height:30px;
+    line-height:30px;
+    width:75px;
+    border:1px solid #DDDDDD;
+    background: #f8f9f9;
+}
+#tickt_recharge table{
+    margin:10px 8px;
+}
+#new_bottom_content{
+    width: 309px;
+    height:175.5px;
+}
+#tickt_recharge table input{
+    height: 23px;
+    color: #333;
+    padding-left: 5px;
+}
+
+#tickt_recharge tr{
+    vertical-align:top;
+}
+#tickt_recharge table th{
+    color: #666;
+}
+#tickt_recharge table td span{
+    color: #CC3300;
+    font-weight: bold;
+}
+#tickt_recharge table td{
+    padding-bottom: 10px;
+}
+#tickt_recharge table a{
+    color: #005EA7;
+}
+#tickt_recharge button{
+    width: 73px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: url(../images/buy.png) no-repeat -124px -220px;
+    border: none;
 }
 #top_slide{
     float: right;
     width:670px;
     height:437.6px;
     margin-right: 10px;
-    background: #ccc;
+    background-color: #EEEEEE;
 }
+.slide_list dt{
+    height:240px;
+    width:670px;
+}
+.slide_list dd a{
+    float: left;
+    margin-left:1.3px;
+}
+.slide_nav{
+    width:670px;
+    height:30px;
+    clear: both;
+}
+.slide_nav li{
+    float: left;
+}
+.slide_nav li a{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #999;
+    color: #FFF;
+    text-align: center;
+    line-height: 22px;
+    margin: 0px 5px;
+    border-radius: 12px;
+}
+.slide_nav li a:hover{
+    background-color: #c00;
+    text-decoration: none;
+    color: #FFF;
+}
+.slide_nav ul{
+    float: right;
+    margin-top: 10px;
+}
+/*top结束*/
 
+#link{
+    clear: both;
+    height: 176px;
+    border: 1px #dddddd solid;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#link_page{
+    padding-left: 32px;
+    padding-top: 13px;
+    width: 970px;
+    float: left;
+}
+#link_page dl{
+    float: left;
+    width: 194px;
+    height: auto;
+    overflow: hidden;
+}
+#link_page dt{
+    height: 28px;
+    line-height: 28px;
+}
+#link_page dt h2{
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+}
+#link_page dt b{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(../images/buy.png) no-repeat 0px -176px;
+    float: left;
+}
+#link_page .link_page_2 dt b{
+    background-position: -30px -176px;
+}
+#link_page .link_page_3 dt b{
+    background-position: -60px -176px;
+}
+#link_page .link_page_4 dt b{
+    background-position: -90px -176px;
+}
+#link_page .link_page_5 dt b{
+    background-position: -120px -176px;
+}
+#link_page dd ul{
+    clear: both;
+    padding-left: 23px;
+    border-left: 1px #cfcfcf dashed;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+#son_com{
+    float: left;
+    width: 178px;
+    height: 170px;
+    padding: 0px 12px;
+    background: url(../images/c.png) no-repeat 0px -673px;
+}
+#son_com h2{
+    font-weight: bold;
+    padding-top: 15px;
+}
+#son_com .com_desc{
+    color: #333;
+    padding: 5px 0px;
+    line-height: 23px;
+}
+#son_com .com_link{
+    text-align: right;
+}
+#son_com .com_link a{
+    color: #005ea7;
+}
+/*link结束*/
 
-
-
-
+#copy_right{
+    margin-top: 23px;
+    text-align: center;
+}
+#copy_right .copy_link{
+    margin-bottom: 17px;
+}
+#copy_right .copy_link a{
+    margin: 0px 10px;
+}
+#copy_right .cp_info{
+    color: #333333;
+    line-height: 20px;
+}
+#copy_right .cp_ba{
+    margin-top: 10px;
+}
+#copy_right .cp_ba a{
+    margin-right: 10px;
+}
