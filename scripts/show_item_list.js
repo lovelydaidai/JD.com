@@ -7,6 +7,9 @@ for (i=0;i<show_li.length;i++){
             show_li[i].className='item';
         };
         this.className='item_hover';
+        this.onmouseout = function () {
+            this.className='item';
+        }
 
     } ;
     }
